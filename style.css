@@ -1,0 +1,70 @@
+/*stylesheet for circle challenge*/
+body {
+  background-image: url('images/blankpaper.jpeg');
+}
+
+h1{
+  width: 50%;
+  margin: auto;
+  font-family: 'Satisfy', cursive;
+  font-size: 575%;
+  letter-spacing: 5px;
+  word-spacing: 16px;
+}
+
+#form {
+  width: 50%;
+  margin-top: -10px;
+  margin-left: 200px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 110%;
+}
+#brusharea{
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 200px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #ccc;
+
+}
+form [type=text]{
+  width: 20%;
+    padding: 5px 0px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fdfbf2;
+}
+input[type=text]:focus {
+    background-color: pink;
+}
+
+button {
+  background-color: #fdfbf2;
+    border: 1px solid #ccc;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+#container {
+  width: 50%;
+  margin-top: 80px;
+  margin-left: 205px;
+}
+canvas {
+  border: 1px solid #ccc;
+  display: block;
+  border-radius: 5px;
+  cursor: crosshair;
+  /*background: url(images/window.png)*/
+}
