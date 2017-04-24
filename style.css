@@ -41,7 +41,7 @@ form [type=text]{
     background-color: #fdfbf2;
 }
 input[type=text]:focus {
-    background-color: pink;
+    background-color: #ccc;
 }
 
 button {
